@@ -1,0 +1,11 @@
+[package]
+name = "plugin"
+version = "0.1.0"
+authors = ["Kirill <xakdog@gmail.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+rand = "0.5.1"
+samp-sdk = { path = "../.." }

@@ -1,6 +1,8 @@
-/.idea
+.idea/
 *.iml
-/target
+target/
+tests/plugin/target/
+tests/samp03/
 **/*.rs.bk
 Cargo.lock
 .DS_Store
